@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		201B593F263CE42100E6B27B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 201B593E263CE42100E6B27B /* main.cpp */; };
+		201B5948263CE43A00E6B27B /* CarSales.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 201B5946263CE43A00E6B27B /* CarSales.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		201B593B263CE42100E6B27B /* carSales */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = carSales; sourceTree = BUILT_PRODUCTS_DIR; };
 		201B593E263CE42100E6B27B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		201B5946263CE43A00E6B27B /* CarSales.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CarSales.cpp; sourceTree = "<group>"; };
+		201B5947263CE43A00E6B27B /* CarSales.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CarSales.hpp; sourceTree = "<group>"; };
+		201B594C263DAD2300E6B27B /* CarInventory.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarInventory.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				201B593E263CE42100E6B27B /* main.cpp */,
+				201B594C263DAD2300E6B27B /* CarInventory.txt */,
+				201B5946263CE43A00E6B27B /* CarSales.cpp */,
+				201B5947263CE43A00E6B27B /* CarSales.hpp */,
 			);
 			path = carSales;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				201B593F263CE42100E6B27B /* main.cpp in Sources */,
+				201B5948263CE43A00E6B27B /* CarSales.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
