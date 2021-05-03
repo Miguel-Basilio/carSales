@@ -14,11 +14,6 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    cout << "Class 94818 CMPR120\n";
-    cout << "Instructor : Joel Kirscher\n";
-    cout << "Student : Miguel Basilio\n";
-    cout << "Enviroment : Visual Studio 2019\n";
-    cout << "Project : Car Class \n";
  
     cout << "Use the Car Class: \n\n";
     CarSales Chevrolet (2011, "Camaro",0);
